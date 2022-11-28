@@ -65,10 +65,10 @@ if($_POST){
 
     <title>Registrarse</title>
 </head>
-<body>
+<body style="background: #721c24; height: 100vh">
 <?php include('navbar.php')?>
-<form class="row g-3" method="POST">
-    <div class="col-md-7">
+<form class="row" method="POST" style="margin: auto; width: 40em; color: white ;background: #a2735f; border: 1px solid black; margin-top: 15em">
+    <div class="col-md-12">
         <label for="inputEmail4" class="form-label">Nombre de usuario</label>
         <input type="text" class="form-control" id="inputUsuario" name= "Nombre">
     </div>
@@ -88,9 +88,10 @@ if($_POST){
         <label for="inputPassword4" class="form-label">Confirmar Contraseña</label>
         <input type="password" class="form-control" id="inputPassword4-Verify" name="C_Contraseña">
     </div>
+    <hr/>
     <fieldset class="row mb-3">
         <div class="col-12">
-            <button type="submit" class="btn btn-danger">Registrarse</button>
+            <button type="submit" class="btn" style="background: #721c24 ;color: white; width: 38.5em">Registrarse</button>
         </div>
 </form>
 </body>

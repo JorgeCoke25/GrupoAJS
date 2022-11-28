@@ -54,15 +54,11 @@ if($_POST){
         div.login {
             margin: auto;
             display: flex;
-            width: 30em;
             align-content: center;
             flex-direction: column;
         }
         form{
             color: black;
-        }
-        h1{
-            margin: auto;
         }
         div.col-12{
             margin: auto;
@@ -71,11 +67,10 @@ if($_POST){
 
     <title>LogIn</title>
 </head>
-<body>
+<body style="background: #721c24">
 
-<div class="login">
-    <h1>Iniciar sesion</h1>
-    <form class="row g-2" method="POST">
+<div class="login" style="background: #a2735f;border: 1px solid black">
+    <form class="row g-2" method="POST" style="margin: auto">
         <div class="form-floating mb-3" >
             <input type="email" class="form-control" id="floatingInput" placeholder="nombre@ejemplo.com" name = "correo">
             <label for="floatingInput">Correo</label>
@@ -85,7 +80,7 @@ if($_POST){
             <label for="floatingPassword">Contraseña</label>
         </div>
         <div class="col-12">
-            <button style="width: 30em" type="submit" class="btn btn-danger">Iniciar Sesion</button>
+            <button style="width:60em ; background: #721c24; color: white" type="submit" class="btn">Iniciar Sesion</button>
         </div>
     </form>
     <br><?= $mensaje ?><br>
