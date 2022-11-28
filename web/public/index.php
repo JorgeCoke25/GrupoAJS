@@ -23,7 +23,6 @@ include '../app/vendor/autoload.php';
 <div class="topnav">
     <a class="btn btn-danger" href="Home.php">Inicio</a>
     <a class="btn btn-danger" href="login.php">Log In</a>
-    <a class="btn btn-danger" href="">About</a>
 </div>
 
 
